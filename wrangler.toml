@@ -1,0 +1,15 @@
+name = "xmit-mcp"
+main = "src/server.ts"
+compatibility_date = "2026-01-28"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+TRANSMIT_API_BASE = "https://api.xmit.sh"
+
+[[kv_namespaces]]
+binding = "OAUTH_KV"
+id = "<your-kv-namespace-id>"
+
+# [[routes]]
+# pattern = "mcp.xmit.sh/*"
+# zone_name = "xmit.sh"

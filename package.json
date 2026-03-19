@@ -1,0 +1,24 @@
+{
+  "name": "xmit-mcp",
+  "version": "1.0.0",
+  "description": "Remote MCP server for the Transmit email platform",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "types": "wrangler types"
+  },
+  "dependencies": {
+    "@cloudflare/workers-oauth-provider": "^0.2.0",
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "agents": "^0.7.7",
+    "hono": "^4.12.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250313.0",
+    "typescript": "^5.6.0",
+    "wrangler": "^4.22.0"
+  }
+}
