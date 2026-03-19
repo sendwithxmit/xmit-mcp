@@ -26,7 +26,7 @@ export function registerContactTools(server: McpServer) {
           firstName: params.firstName,
           lastName: params.lastName,
         });
-        return { content: [{ type: "text", text: `Contact added successfully. ID: ${resp.id}, Email: ${resp.email}` }] };
+        return { content: [{ type: "text", text: `Contact added successfully. ID: ${resp.id}, Email: ${params.email}` }] };
       } catch (e) {
         return { content: [{ type: "text", text: `Failed to add contact: ${(e as Error).message}` }] };
       }

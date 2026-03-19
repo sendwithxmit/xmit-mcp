@@ -38,7 +38,6 @@ export interface AddContactRequest {
 
 export interface AddContactResponse {
   id: string;
-  email: string;
 }
 
 // --- Senders ---
