@@ -48,7 +48,7 @@ export function registerEmailTools(server: McpServer) {
           cc: splitCSV(params.cc),
           bcc: splitCSV(params.bcc),
         });
-        return { content: [{ type: "text", text: `Email sent successfully. Message ID: ${resp.messageId}, Status: ${resp.status}` }] };
+        return { content: [{ type: "text", text: `Email sent successfully. Message ID: ${resp.messageId}` }] };
       } catch (e) {
         return { content: [{ type: "text", text: `Failed to send email: ${(e as Error).message}` }] };
       }

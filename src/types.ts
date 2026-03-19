@@ -24,7 +24,7 @@ export interface SendEmailRequest {
 
 export interface SendEmailResponse {
   messageId: string;
-  status: string;
+  success: boolean;
 }
 
 // --- Contacts ---

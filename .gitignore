@@ -3,4 +3,4 @@ dist/
 .wrangler/
 .dev.vars
 .env
-wrangler.toml.local
+

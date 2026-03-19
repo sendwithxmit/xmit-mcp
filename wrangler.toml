@@ -8,8 +8,8 @@ TRANSMIT_API_BASE = "https://api.xmit.sh"
 
 [[kv_namespaces]]
 binding = "OAUTH_KV"
-id = "<your-kv-namespace-id>"
+id = "56c42a41c69a4025a9039b25a5baefde"
 
-# [[routes]]
-# pattern = "mcp.xmit.sh/*"
-# zone_name = "xmit.sh"
+[[routes]]
+pattern = "mcp.xmit.sh/*"
+zone_name = "xmit.sh"
